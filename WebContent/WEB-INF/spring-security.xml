@@ -12,6 +12,7 @@
 	<security:authentication-manager>
 		<security:authentication-provider>
 			<security:user-service id="userService">
+			<!-- Here, we can use LDAP authentication, database authentication for user authentication -->
 				<security:user name="ammanchipavan" password="pavan@java" authorities="user" />
 				<security:user name="ammanchi" password="123" authorities="user" />
 				<security:user name="pavan" password="123" authorities="user" />
